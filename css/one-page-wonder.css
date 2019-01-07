@@ -1,0 +1,151 @@
+body {
+  font-family: 'Lato';
+  margin-top:50rem;
+  position:relative;
+}
+
+
+@font-face {
+font-family: "Catamaran";
+src: url("../css/fonts/McLaren-Regular.ttf");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran';
+  font-weight: 800 !important;
+}
+
+.masthead-heading{
+  color:#ffffff;
+}
+
+
+.btn-xl {
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.bg-black {
+  background-color: #000 !important;
+}
+
+.rounded-pill {
+  border-radius: 5rem;
+}
+
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  background-image: url("../img/cover1.jpg");
+}
+
+header.masthead .masthead-content {
+  z-index: 1;
+  position: relative;
+}
+
+header.masthead .masthead-content .masthead-heading {
+  font-size: 4rem;
+}
+
+header.masthead .masthead-content .masthead-subheading {
+  font-size: 2rem;
+}
+
+header.masthead .bg-circle {
+  z-index: 0;
+  position: absolute;
+  border-radius: 100%;
+  /*background-image: url("../img/pic-circle2.jpg");*/
+  transform: scale(2.2);
+}
+
+
+@media (min-width: 992px) {
+  header.masthead {
+    padding-top: calc(14rem + 55px);
+    padding-bottom: 13rem;
+  }
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 3rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 1.5rem;
+  }
+}
+
+.bg-primary {
+  background-color: #ee0979 !important;
+}
+
+.btn-primary {
+  background-color: #007cb8;
+  border-color: #007cb8;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #015781 !important;
+  border-color: #015781 !important;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem #015781;
+}
+
+.btn-secondary {
+  background-color: #ff6a00;
+  border-color: #ff6a00;
+}
+
+.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+  background-color: #cc5500 !important;
+  border-color: #cc5500 !important;
+}
+
+.btn-secondary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
+
+.custom-title{font-size:1.8rem;}
+
+#mapid { height: 25rem; }
+
+#footer-logo{
+  padding-left: 4rem;
+}
+
+#footer-contact{
+  padding-right: 4rem;
+}
+
+#footer-logo-img{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+footer.row{
+  margin-bottom: 20rem;
+}
+
+#section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+#section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+
+
+.nav > li.active > a {
+ display:block;
+ color: red;
+ text-decoration: underline;
+ }
