@@ -140,10 +140,6 @@ footer.row{
   margin-bottom: 20rem;
 }
 
-#section2 {padding-top:50px;height:500px;color: #fff;}
-#section3 {padding-top:50px;height:500px;color: #fff;}
-
-
 .nav > li.active > a {
  display:block;
  color: red;
