@@ -41,11 +41,11 @@
 	
 	<nav id="myNavbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 		<span><img src="img/logo.png" style="padding-right: .5rem;" width=75 alt="logo"></span>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<button class="navbar-toggler" type="button" data-target="#navbarSupportedContent">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<span><a class="navbar-brand" href="#"><strong>Build and Serve Engineering Pvt. Ltd.</strong></a></span>
-		<div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarSupportedContent">
+		<div class="navbar-collapse w-100 order-3 collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item active">
 					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -240,5 +240,17 @@
     				})
     		});
     	</script> -->
+      <script>
+         $(document).ready(function(){
+            $(".navbar-toggler").click(
+              function(){
+                $("#navbarSupportedContent").toggleClass("collapse")
+              })
+            $(".nav-item").click(
+              function(){
+                $("#navbarSupportedContent").toggleClass("collapse")
+              })
+      });
+      </script>
 
     	</html>
